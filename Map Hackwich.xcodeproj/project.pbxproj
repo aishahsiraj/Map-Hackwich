@@ -11,6 +11,7 @@
 		F8DD3BE92B864F7F009C5F50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD3BE82B864F7F009C5F50 /* ContentView.swift */; };
 		F8DD3BEB2B864F7F009C5F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DD3BEA2B864F7F009C5F50 /* Assets.xcassets */; };
 		F8DD3BEE2B864F7F009C5F50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DD3BED2B864F7F009C5F50 /* Preview Assets.xcassets */; };
+		F8DD3BF52B87A382009C5F50 /* LocationManager.swift..swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD3BF42B87A382009C5F50 /* LocationManager.swift..swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F8DD3BE82B864F7F009C5F50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8DD3BEA2B864F7F009C5F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8DD3BED2B864F7F009C5F50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8DD3BF42B87A382009C5F50 /* LocationManager.swift..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift..swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F8DD3BE62B864F7F009C5F50 /* Map_HackwichApp.swift */,
 				F8DD3BE82B864F7F009C5F50 /* ContentView.swift */,
+				F8DD3BF42B87A382009C5F50 /* LocationManager.swift..swift */,
 				F8DD3BEA2B864F7F009C5F50 /* Assets.xcassets */,
 				F8DD3BEC2B864F7F009C5F50 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8DD3BF52B87A382009C5F50 /* LocationManager.swift..swift in Sources */,
 				F8DD3BE92B864F7F009C5F50 /* ContentView.swift in Sources */,
 				F8DD3BE72B864F7F009C5F50 /* Map_HackwichApp.swift in Sources */,
 			);
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = 4CCM99K3HF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = 4CCM99K3HF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
